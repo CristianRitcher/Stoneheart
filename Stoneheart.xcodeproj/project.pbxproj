@@ -23,7 +23,7 @@
 		2134E0972BB5E48100F9D54F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2134E0962BB5E48100F9D54F /* FirebaseFirestore */; };
 		2134E0992BB5E48100F9D54F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2134E0982BB5E48100F9D54F /* FirebaseFirestoreSwift */; };
 		2134E09B2BB5E48100F9D54F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2134E09A2BB5E48100F9D54F /* FirebaseStorage */; };
-		2134E0A12BB5E75A00F9D54F /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134E0A02BB5E75A00F9D54F /* tabView.swift */; };
+		2134E0AF2BB5EB6900F9D54F /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134E0AE2BB5EB6900F9D54F /* tabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,7 @@
 		2134E0792BB5E36400F9D54F /* StoneheartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneheartUITests.swift; sourceTree = "<group>"; };
 		2134E07B2BB5E36400F9D54F /* StoneheartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneheartUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2134E0882BB5E39200F9D54F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2134E0A02BB5E75A00F9D54F /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
+		2134E0AE2BB5EB6900F9D54F /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +162,7 @@
 		2134E09C2BB5E6B300F9D54F /* 👁️ Views */ = {
 			isa = PBXGroup;
 			children = (
-				2134E0A02BB5E75A00F9D54F /* tabView.swift */,
+				2134E0AE2BB5EB6900F9D54F /* tabView.swift */,
 				2134E0A22BB5E79000F9D54F /* 🔐 Auth */,
 				2134E0A42BB5E7F600F9D54F /* 🙋‍♀️ Inicio */,
 				2134E0A32BB5E7A600F9D54F /* 🧾 Tramites */,
@@ -413,7 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2134E0A12BB5E75A00F9D54F /* tabView.swift in Sources */,
+				2134E0AF2BB5EB6900F9D54F /* tabView.swift in Sources */,
 				2134E0612BB5E36300F9D54F /* ContentView.swift in Sources */,
 				2134E05F2BB5E36300F9D54F /* StoneheartApp.swift in Sources */,
 			);

@@ -23,6 +23,7 @@
 		2134E0972BB5E48100F9D54F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2134E0962BB5E48100F9D54F /* FirebaseFirestore */; };
 		2134E0992BB5E48100F9D54F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2134E0982BB5E48100F9D54F /* FirebaseFirestoreSwift */; };
 		2134E09B2BB5E48100F9D54F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2134E09A2BB5E48100F9D54F /* FirebaseStorage */; };
+		2134E0A12BB5E75A00F9D54F /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134E0A02BB5E75A00F9D54F /* tabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		2134E0792BB5E36400F9D54F /* StoneheartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneheartUITests.swift; sourceTree = "<group>"; };
 		2134E07B2BB5E36400F9D54F /* StoneheartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneheartUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2134E0882BB5E39200F9D54F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2134E0A02BB5E75A00F9D54F /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,9 @@
 		2134E05D2BB5E36300F9D54F /* Stoneheart */ = {
 			isa = PBXGroup;
 			children = (
+				2134E0AD2BB5EA8400F9D54F /* 🔬 Pruebas */,
+				2134E09D2BB5E6EB00F9D54F /* 🎮 Controllers */,
+				2134E09C2BB5E6B300F9D54F /* 👁️ Views */,
 				2134E0882BB5E39200F9D54F /* GoogleService-Info.plist */,
 				2134E05E2BB5E36300F9D54F /* StoneheartApp.swift */,
 				2134E0602BB5E36300F9D54F /* ContentView.swift */,
@@ -152,6 +157,116 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2134E09C2BB5E6B300F9D54F /* 👁️ Views */ = {
+			isa = PBXGroup;
+			children = (
+				2134E0A02BB5E75A00F9D54F /* tabView.swift */,
+				2134E0A22BB5E79000F9D54F /* 🔐 Auth */,
+				2134E0A42BB5E7F600F9D54F /* 🙋‍♀️ Inicio */,
+				2134E0A32BB5E7A600F9D54F /* 🧾 Tramites */,
+				2134E0A52BB5E82E00F9D54F /* ❌ Inasistencias */,
+				2134E0A72BB5E86D00F9D54F /* 🔔 Notificaciones */,
+				2134E0A62BB5E85600F9D54F /* 🔍 Buscar */,
+			);
+			path = "👁️ Views";
+			sourceTree = "<group>";
+		};
+		2134E09D2BB5E6EB00F9D54F /* 🎮 Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "🎮 Controllers";
+			sourceTree = "<group>";
+		};
+		2134E0A22BB5E79000F9D54F /* 🔐 Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "🔐 Auth";
+			sourceTree = "<group>";
+		};
+		2134E0A32BB5E7A600F9D54F /* 🧾 Tramites */ = {
+			isa = PBXGroup;
+			children = (
+				2134E0AC2BB5E9B700F9D54F /* Descuentos */,
+				2134E0AB2BB5E9A900F9D54F /* Permisos */,
+				2134E0AA2BB5E99C00F9D54F /* Exenciones */,
+				2134E0A92BB5E98E00F9D54F /* Vacantes */,
+				2134E0A82BB5E98000F9D54F /* Canastilla */,
+			);
+			path = "🧾 Tramites";
+			sourceTree = "<group>";
+		};
+		2134E0A42BB5E7F600F9D54F /* 🙋‍♀️ Inicio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "🙋‍♀️ Inicio";
+			sourceTree = "<group>";
+		};
+		2134E0A52BB5E82E00F9D54F /* ❌ Inasistencias */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "❌ Inasistencias";
+			sourceTree = "<group>";
+		};
+		2134E0A62BB5E85600F9D54F /* 🔍 Buscar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "🔍 Buscar";
+			sourceTree = "<group>";
+		};
+		2134E0A72BB5E86D00F9D54F /* 🔔 Notificaciones */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "🔔 Notificaciones";
+			sourceTree = "<group>";
+		};
+		2134E0A82BB5E98000F9D54F /* Canastilla */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Canastilla;
+			sourceTree = "<group>";
+		};
+		2134E0A92BB5E98E00F9D54F /* Vacantes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vacantes;
+			sourceTree = "<group>";
+		};
+		2134E0AA2BB5E99C00F9D54F /* Exenciones */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exenciones;
+			sourceTree = "<group>";
+		};
+		2134E0AB2BB5E9A900F9D54F /* Permisos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Permisos;
+			sourceTree = "<group>";
+		};
+		2134E0AC2BB5E9B700F9D54F /* Descuentos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Descuentos;
+			sourceTree = "<group>";
+		};
+		2134E0AD2BB5EA8400F9D54F /* 🔬 Pruebas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "🔬 Pruebas";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2134E0A12BB5E75A00F9D54F /* tabView.swift in Sources */,
 				2134E0612BB5E36300F9D54F /* ContentView.swift in Sources */,
 				2134E05F2BB5E36300F9D54F /* StoneheartApp.swift in Sources */,
 			);

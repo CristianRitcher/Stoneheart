@@ -24,6 +24,10 @@
 		2134E0992BB5E48100F9D54F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2134E0982BB5E48100F9D54F /* FirebaseFirestoreSwift */; };
 		2134E09B2BB5E48100F9D54F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2134E09A2BB5E48100F9D54F /* FirebaseStorage */; };
 		2134E0AF2BB5EB6900F9D54F /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134E0AE2BB5EB6900F9D54F /* tabView.swift */; };
+		2188C5492BBB606800E67286 /* EstefaniaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2188C5482BBB606800E67286 /* EstefaniaView.swift */; };
+		2188C54B2BBB608500E67286 /* AntelmoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2188C54A2BBB608500E67286 /* AntelmoView.swift */; };
+		2188C54E2BBB60A600E67286 /* RitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2188C54D2BBB60A600E67286 /* RitcherView.swift */; };
+		2188C5502BBB60B800E67286 /* JammalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2188C54F2BBB60B800E67286 /* JammalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		2134E07B2BB5E36400F9D54F /* StoneheartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneheartUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2134E0882BB5E39200F9D54F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2134E0AE2BB5EB6900F9D54F /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
+		2188C5482BBB606800E67286 /* EstefaniaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstefaniaView.swift; sourceTree = "<group>"; };
+		2188C54A2BBB608500E67286 /* AntelmoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntelmoView.swift; sourceTree = "<group>"; };
+		2188C54D2BBB60A600E67286 /* RitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitcherView.swift; sourceTree = "<group>"; };
+		2188C54F2BBB60B800E67286 /* JammalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JammalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +273,10 @@
 		2134E0AD2BB5EA8400F9D54F /* 🔬 Pruebas */ = {
 			isa = PBXGroup;
 			children = (
+				2188C5482BBB606800E67286 /* EstefaniaView.swift */,
+				2188C54A2BBB608500E67286 /* AntelmoView.swift */,
+				2188C54D2BBB60A600E67286 /* RitcherView.swift */,
+				2188C54F2BBB60B800E67286 /* JammalView.swift */,
 			);
 			path = "🔬 Pruebas";
 			sourceTree = "<group>";
@@ -414,8 +426,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2134E0AF2BB5EB6900F9D54F /* tabView.swift in Sources */,
+				2188C5492BBB606800E67286 /* EstefaniaView.swift in Sources */,
 				2134E0612BB5E36300F9D54F /* ContentView.swift in Sources */,
+				2188C54B2BBB608500E67286 /* AntelmoView.swift in Sources */,
+				2188C54E2BBB60A600E67286 /* RitcherView.swift in Sources */,
 				2134E05F2BB5E36300F9D54F /* StoneheartApp.swift in Sources */,
+				2188C5502BBB60B800E67286 /* JammalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

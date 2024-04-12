@@ -8,11 +8,40 @@
 import SwiftUI
 
 struct tabView: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        TabView {
+            
+            inicioView()
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("Inicio")
+            }
+            
+            inasistenciasView()
+                .tabItem{
+                    Image(systemName: "calendar")
+                    Text("Inasistencias")
+                }
+            
+            tramitesView()
+                .tabItem {
+                    Image(systemName: "folder")
+                    Text("Trámites")
+                }
+            
+            notificacionesView()
+                .tabItem {
+                    Image(systemName: "bell")
+                    Text("Notificaciones")
+                }
+            
+            buscarView()
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+                    Text("Buscar")
+                }
+        }
     }
-}
-
-#Preview {
-    tabView()
 }

@@ -28,7 +28,8 @@ struct uploadPhoto: View {
             }
             
             Button("subir") {
-                uploadImage(image: imagen!, tramite: "foto")
+                let url = urlImage(tramite: "file")
+                uploadImage(image: imagen!, url: url)
             }
         }
         .onChange(of: photoPickerItem) { _, _ in

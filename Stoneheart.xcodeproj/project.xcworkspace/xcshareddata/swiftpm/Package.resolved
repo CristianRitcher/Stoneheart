@@ -1,5 +1,5 @@
 {
-  "originHash" : "c63c63846d9c539229e96de38d6af51417e28c0ee9a0bc48bd0f0f19d923c329",
+  "originHash" : "7efed47d13b78f0b504c6769cc5bbda2b32b5691d39123d388cbd8673c37c2e7",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -89,6 +89,15 @@
       "state" : {
         "revision" : "43aaef65e0c665daadf848761d560e446d350d3d",
         "version" : "1.22.4"
+      }
+    },
+    {
+      "identity" : "modal-view",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/diniska/modal-view",
+      "state" : {
+        "revision" : "3f1a97297112770677b507556f581f7ed561593a",
+        "version" : "1.0.1"
       }
     },
     {

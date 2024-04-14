@@ -7,17 +7,21 @@
 
 import SwiftUI
 import FirebaseAuth
+import FirebaseCore
+import FirebaseFirestore
 
 struct loginView: View {
+    @StateObject var userData = UserData()
     @State private var correo: String = ""
     @State private var contrasena: String = ""
     @State private var logeado: Bool = false
-    
     let color: Colores = Colores()
+    
+    
     
     var body: some View {
         if logeado {
-            inicioView()
+            TabBar().environmentObject(userData)
         } else {
             content
         }
@@ -25,6 +29,7 @@ struct loginView: View {
     
     var content: some View {
         NavigationView {
+            
             ScrollView {
                 ZStack {
                     
@@ -52,9 +57,9 @@ struct loginView: View {
                     
                     Text("Iniciar Sesión")
                         .foregroundStyle(color.rojo())
-                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                        .font(.title)
                         .padding(.bottom,100 )
-                   
+                    
                     VStack{
                         
                         Group{
@@ -82,6 +87,16 @@ struct loginView: View {
                                         return
                                     }
                                     if let authResult = authResult {
+                                        Task{
+                                            userData.nombre = await getNombre(correo: correo)
+                                            userData.apellidoPaterno = await getApellidoPaterno(correo: correo)
+                                            userData.apellidoMaterno = await getApellidoMaterno(correo: correo)
+                                            userData.matricula = await getMatricula(correo: correo)
+                                            userData.adscripcion = await getAdscripcion(correo: correo)
+                                            userData.tipoTrabajador = await getTipoTrabajador(correo: correo)
+                                            userData.turno = await getTurno(correo: correo)
+                                        }
+                                        userData.correo = correo
                                         logeado = true
                                     }
                                 }
@@ -94,15 +109,15 @@ struct loginView: View {
                             
                             NavigationLink("¿Olvidaste tu contraseña?",
                                            destination: CorreoView())
-                                .foregroundStyle(color.rojo())
-                                .font(.subheadline)
-                                .padding(.top, 12)
+                            .foregroundStyle(color.rojo())
+                            .font(.subheadline)
+                            .padding(.top, 12)
                             
                             NavigationLink("¿No tienes una cuenta? Regístrate aquí.", destination: RegistroView())
                                 .foregroundStyle(color.rojo())
                                 .font(.subheadline)
                                 .padding(.top, 12)
-                                
+                            
                         }
                         .padding(.horizontal, 40)
                     }

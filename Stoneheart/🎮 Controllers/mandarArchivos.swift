@@ -10,15 +10,18 @@ import PhotosUI
 import Firebase
 import FirebaseStorage
 
-// Enviar imagenes
-func uploadImage(image: UIImage, tramite: String){
-    
+func urlImage(tramite: String) -> String{
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = "yyyyMMddHHmmss"
     let stringFecha = dateFormatter.string(from: Date())
+    return "\(tramite)/\(stringFecha)"
+}
+
+// Enviar imagenes
+func uploadImage(image: UIImage, tramite: String, url: String) {
     
     let storage = Storage.storage()
-    let storageRef = storage.reference().child("prueba/\(stringFecha).jpg")
+    let storageRef = storage.reference().child("\(url).jpg")
     
     // Convert the image into JPEG and compress the quality to reduce its size
     let data = image.jpegData(compressionQuality: 0.2)
@@ -38,3 +41,5 @@ func uploadImage(image: UIImage, tramite: String){
         }
     }
 }
+
+func uploadFile(file: Data) {}

@@ -23,6 +23,7 @@
 		2134E0972BB5E48100F9D54F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2134E0962BB5E48100F9D54F /* FirebaseFirestore */; };
 		2134E0992BB5E48100F9D54F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2134E0982BB5E48100F9D54F /* FirebaseFirestoreSwift */; };
 		2134E09B2BB5E48100F9D54F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2134E09A2BB5E48100F9D54F /* FirebaseStorage */; };
+		215472E42BCD1EF000D57392 /* generarVacantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215472E32BCD1EF000D57392 /* generarVacantes.swift */; };
 		217FA0D32BCB6BAE0083321B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FA0D12BCB6BAE0083321B /* TabBar.swift */; };
 		217FA0D62BCB6BBB0083321B /* customTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FA0D52BCB6BBB0083321B /* customTabView.swift */; };
 		217FA0D92BCB70050083321B /* inacistenciasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FA0D72BCB70050083321B /* inacistenciasView.swift */; };
@@ -86,6 +87,7 @@
 		2134E0792BB5E36400F9D54F /* StoneheartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneheartUITests.swift; sourceTree = "<group>"; };
 		2134E07B2BB5E36400F9D54F /* StoneheartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneheartUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2134E0882BB5E39200F9D54F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		215472E32BCD1EF000D57392 /* generarVacantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generarVacantes.swift; sourceTree = "<group>"; };
 		217FA0D12BCB6BAE0083321B /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBar.swift; path = "../../../../../Downloads/Views/Copia de ttabbar/TabBar.swift"; sourceTree = "<group>"; };
 		217FA0D52BCB6BBB0083321B /* customTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customTabView.swift; path = "../../../../../Downloads/Views/Copia de ttabbar/customTabView.swift"; sourceTree = "<group>"; };
 		217FA0D72BCB70050083321B /* inacistenciasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = inacistenciasView.swift; path = "../../../../../../Downloads/Views/Copia de Inacistencias/inacistenciasView.swift"; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 				21D00C742BC8FAFA001810AC /* paletaColores.swift */,
 				21D00C782BC9E650001810AC /* mandarArchivos.swift */,
 				217FA0FB2BCB7B480083321B /* userData.swift */,
+				215472E32BCD1EF000D57392 /* generarVacantes.swift */,
 			);
 			path = "🎮 Controllers";
 			sourceTree = "<group>";
@@ -514,6 +517,7 @@
 				217FA0EA2BCB70370083321B /* exentosNietosView.swift in Sources */,
 				21D00C7F2BCA2DA1001810AC /* SwiftUIView.swift in Sources */,
 				21D00C732BC8F7AC001810AC /* loginView.swift in Sources */,
+				215472E42BCD1EF000D57392 /* generarVacantes.swift in Sources */,
 				21D00C752BC8FAFA001810AC /* paletaColores.swift in Sources */,
 				217FA0EE2BCB70410083321B /* permisosView.swift in Sources */,
 				217FA0EB2BCB70370083321B /* exentosHijosView.swift in Sources */,

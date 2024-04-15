@@ -10,11 +10,11 @@ import PhotosUI
 import Firebase
 import FirebaseStorage
 
-func urlImage(tramite: String) -> String{
+func urlImage(tramite: String, num: String) -> String{
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = "yyyyMMddHHmmss"
     let stringFecha = dateFormatter.string(from: Date())
-    return "\(tramite)/\(stringFecha).jpg"
+    return "\(tramite)/\(num)\(stringFecha).jpg"
 }
 
 // Enviar imagenes

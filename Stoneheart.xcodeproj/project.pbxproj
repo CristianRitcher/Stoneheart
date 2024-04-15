@@ -26,7 +26,6 @@
 		217FA0D32BCB6BAE0083321B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FA0D12BCB6BAE0083321B /* TabBar.swift */; };
 		217FA0D62BCB6BBB0083321B /* customTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FA0D52BCB6BBB0083321B /* customTabView.swift */; };
 		217FA0D92BCB70050083321B /* inacistenciasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FA0D72BCB70050083321B /* inacistenciasView.swift */; };
-		217FA0DA2BCB70050083321B /* justificarFalta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FA0D82BCB70050083321B /* justificarFalta.swift */; };
 		217FA0DC2BCB701E0083321B /* canastaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FA0DB2BCB701E0083321B /* canastaView.swift */; };
 		217FA0E02BCB702A0083321B /* tramiteLentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FA0DD2BCB702A0083321B /* tramiteLentes.swift */; };
 		217FA0E12BCB702A0083321B /* tramiteDental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FA0DE2BCB702A0083321B /* tramiteDental.swift */; };
@@ -90,7 +89,6 @@
 		217FA0D12BCB6BAE0083321B /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBar.swift; path = "../../../../../Downloads/Views/Copia de ttabbar/TabBar.swift"; sourceTree = "<group>"; };
 		217FA0D52BCB6BBB0083321B /* customTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customTabView.swift; path = "../../../../../Downloads/Views/Copia de ttabbar/customTabView.swift"; sourceTree = "<group>"; };
 		217FA0D72BCB70050083321B /* inacistenciasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = inacistenciasView.swift; path = "../../../../../../Downloads/Views/Copia de Inacistencias/inacistenciasView.swift"; sourceTree = "<group>"; };
-		217FA0D82BCB70050083321B /* justificarFalta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = justificarFalta.swift; path = "../../../../../../Downloads/Views/Copia de Inacistencias/justificarFalta.swift"; sourceTree = "<group>"; };
 		217FA0DB2BCB701E0083321B /* canastaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = canastaView.swift; path = "../../../../../../../Downloads/Views/Copia de Tramites/canasta/canastaView.swift"; sourceTree = "<group>"; };
 		217FA0DD2BCB702A0083321B /* tramiteLentes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tramiteLentes.swift; path = "../../../../../../../Downloads/Views/Copia de Tramites/descuentos/tramiteLentes.swift"; sourceTree = "<group>"; };
 		217FA0DE2BCB702A0083321B /* tramiteDental.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tramiteDental.swift; path = "../../../../../../../Downloads/Views/Copia de Tramites/descuentos/tramiteDental.swift"; sourceTree = "<group>"; };
@@ -233,8 +231,6 @@
 				2134E0A52BB5E82E00F9D54F /* ❌ Inasistencias */,
 				2134E0A72BB5E86D00F9D54F /* 🔔 Notificaciones */,
 				2134E0A62BB5E85600F9D54F /* 🔍 Buscar */,
-				21D00C7E2BCA2DA1001810AC /* SwiftUIView.swift */,
-				21D00C832BCA40E3001810AC /* modalView.swift */,
 			);
 			path = "👁️ Views";
 			sourceTree = "<group>";
@@ -287,7 +283,6 @@
 			isa = PBXGroup;
 			children = (
 				217FA0D72BCB70050083321B /* inacistenciasView.swift */,
-				217FA0D82BCB70050083321B /* justificarFalta.swift */,
 			);
 			path = "❌ Inasistencias";
 			sourceTree = "<group>";
@@ -360,6 +355,8 @@
 			children = (
 				21D00C762BC906E7001810AC /* uploadPhoto.swift */,
 				21D00C7C2BC9EF14001810AC /* subirArchivo.swift */,
+				21D00C832BCA40E3001810AC /* modalView.swift */,
+				21D00C7E2BCA2DA1001810AC /* SwiftUIView.swift */,
 			);
 			path = "🔬 Pruebas";
 			sourceTree = "<group>";
@@ -533,7 +530,6 @@
 				21D00C772BC906E7001810AC /* uploadPhoto.swift in Sources */,
 				217FA0E92BCB70370083321B /* exentosView.swift in Sources */,
 				2134E05F2BB5E36300F9D54F /* StoneheartApp.swift in Sources */,
-				217FA0DA2BCB70050083321B /* justificarFalta.swift in Sources */,
 				217FA0FC2BCB7B480083321B /* userData.swift in Sources */,
 				21D00C7D2BC9EF14001810AC /* subirArchivo.swift in Sources */,
 				217FA0E12BCB702A0083321B /* tramiteDental.swift in Sources */,

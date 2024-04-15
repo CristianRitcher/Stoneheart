@@ -34,9 +34,6 @@ struct RegistroView: View {
                             .frame(height: 170)
                             .padding(.bottom)
                             .padding(.trailing, 7)
-                        
-                            
-                        
                     }
                     
                     GeometryReader { geometry in
@@ -45,19 +42,12 @@ struct RegistroView: View {
                             .cornerRadius(20)
                             .frame(width: geometry.size.width, height: geometry.size.height * 2)
                             .offset(y: geometry.size.height * 0.28)
-                        
-                        
-                        
-                            
                     }
                     Text("Regístrate")
                         .foregroundStyle(redUJED)
                         .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                         .padding(.bottom, 200 )
                     VStack{
-                       
-                    
-                        
                         Group{
                            
                             // Matricula

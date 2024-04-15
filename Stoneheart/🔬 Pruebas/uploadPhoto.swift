@@ -28,7 +28,7 @@ struct uploadPhoto: View {
             }
             
             Button("subir") {
-                let url = urlImage(tramite: "file")
+                let url = urlImage(tramite: "file", num: "1")
                 uploadImage(image: imagen!, url: url)
             }
         }
